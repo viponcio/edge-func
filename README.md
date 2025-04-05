@@ -94,7 +94,7 @@ supabase functions deploy validate-document-data
 ```
 
 ### Challenges Faced
-Was my first time working with supabase,so my first time using edge functions. The learning curve was easy than the tipical databases, I had problems when it came to authentication and row level security, it was quite complex because I had never dealt with it before, but I put the stack trace in AI and it showed me what to do
+Was my first time working with supabase,so my first time using edge functions. The learning curve was easy than the tipical databases, I had problems when it came to authentication and row level security, it was quite complex because I had never dealt with it before, but I put the stack trace in AI and it showed me what to do.
 
 ## Additional Resources
 
