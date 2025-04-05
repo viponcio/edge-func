@@ -25,8 +25,8 @@ serve(async (req) => {
   try {
     // Initialize Supabase client
     const supabaseClient = createClient(
-      "your-token.supabase.co",
-      "your-key",
+      "your-url.supabase.co",
+      "your-anon-key",
       {
         global: {
           headers: {

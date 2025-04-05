@@ -21,8 +21,8 @@ serve(async (req) => {
 
   try {
     const supabaseClient = createClient(
-      Deno.env.get("your-token") ?? "",
-      Deno.env.get("your-secrect") ?? "",
+      Deno.env.get("your-url.supabase.co") ?? "",
+      Deno.env.get("your-anon-key") ?? "",
       { global: { headers: { Authorization: req.headers.get('Authorization')! } } }
     )
     

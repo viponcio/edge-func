@@ -22,8 +22,8 @@ serve(async (req) => {
 
   try {
     const supabaseClient = createClient(
-      "https://your-token.supabase.co",
-      "your-secret",
+      "your-url.supabase.co",
+      "your-anon-key",
       {
         global: {
           headers: { Authorization: req.headers.get("Authorization")! },
