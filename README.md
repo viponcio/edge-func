@@ -15,7 +15,8 @@ In the n8n project, I've implemented several validation functions:
 
 - Supabase account
 - Supabase CLI installed on your system
-
+- Your URL
+- The anon key
 ### Installation
 
 1. Git clone this repo.
